@@ -50,30 +50,6 @@
         <members>CN_VisitGenerator_Test</members>
         <members>CN_VisitPlanner_Controller</members>
         <members>CN_VisitPlanner_Controller_Test</members>
-        <members>CN_BDR_DailyReport_Controller</members>
-        <members>CN_BDR_DailyReport_ControllerTest</members>
-        <members>CN_CreateBasicANDStatisticKPIBatch</members>
-        <members>CN_CreateBasicANDStatisticKPIBatchTest</members>
-        <members>CN_KPI_DailyCalculate_Batch</members>
-        <members>CN_KPI_DailyCalculate_BatchTest</members>
-        <members>CN_KPI_DailyCreation_Batch</members>
-        <members>CN_KPI_DailyCreation_Batch_Test</members>
-        <members>CN_KPI_Statistic_Controller</members>
-        <members>CN_KPI_Statistic_Controller_Test</members>
-        <members>CN_LeaveController</members>
-        <members>CN_LeaveControllerTest</members>
-        <members>CN_LeaveTriggerHandler</members>
-        <members>CN_LeaveTriggerHandlerTest</members>
-        <members>CN_RejectedPic_ReportController</members>
-        <members>CN_RejectedPic_ReportController_Test</members>
-        <members>CN_ReportEmailSetup_Controller</members>
-        <members>CN_ReportEmailSetup_Controller_Test</members>
-        <members>CN_ReportSendEmail_Controller</members>
-        <members>CN_ReportSendEmail_Controller_Test</members>
-        <members>CN_TSVCKPI_Dashboard_Controller</members>
-        <members>CN_TSVCKPI_Dashboard_Controller_Test</members>
-        <members>CN_VisitDetail_ReportController</members>
-        <members>CN_VisitDetail_ReportController_Test</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -89,14 +65,6 @@
         <members>CN_UserPOCRelationShipList</members>
         <members>CN_UserTerritoryRelationshipList</members>
         <members>CN_VisitPlanner</members>
-        <members>CN_BDR_DailyReport</members>
-        <members>CN_Leave_New</members>
-        <members>CN_SFDCPicture_Reject_Report</members>
-        <members>CN_SalesKPI_Dashboard</members>
-        <members>CN_SendEmail</members>
-        <members>CN_TSVCKPI_Dashboard</members>
-        <members>CN_VisitDetail_Report</members>
-        <members>CN_VisitSummary_Report</members>
         <name>ApexPage</name>
     </types>
     <types>
@@ -106,7 +74,6 @@
         <members>CN_ShareTask_UsersTrigger</members>
         <members>CN_User_POC_RelationshipTrigger</members>
         <members>CN_VisitCycleTrigger</members>
-        <members>CN_LeaveTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <types>
@@ -321,90 +288,6 @@
         <members>CN_VP_TerritoryCannotBeNull</members>
         <members>CN_VP_WCCS_POC_Code</members>
         <members>Show_History_Info</members>
-        <members>CN_Actions</members>
-        <members>CN_Area_Summary</members>
-        <members>CN_BDR_Repoet_Name</members>
-        <members>CN_Category</members>
-        <members>CN_Confirm_Delete</members>
-        <members>CN_Daily_Report</members>
-        <members>CN_Download_Details</members>
-        <members>CN_Download_Image</members>
-        <members>CN_EPOCE_Accept</members>
-        <members>CN_EPOCE_Completed</members>
-        <members>CN_EPOCE_Completed_MTD</members>
-        <members>CN_EPOCE_Completed_Num</members>
-        <members>CN_EPOCE_Num_In_Plan</members>
-        <members>CN_EmailReport_GPSCompliance</members>
-        <members>CN_EmailReport_POCECompliance</members>
-        <members>CN_EmailReport_VisitCompliance</members>
-        <members>CN_Email_Sent</members>
-        <members>CN_End_DateTime</members>
-        <members>CN_Eplus_Rejected</members>
-        <members>CN_Export_VisitDetail</members>
-        <members>CN_Export_VisitSummary</members>
-        <members>CN_GPS_Correct</members>
-        <members>CN_GPS_Correct_VisitDetail</members>
-        <members>CN_GPS_Distance</members>
-        <members>CN_GPS_Rate_Visit_Summary</members>
-        <members>CN_In_Plan_Visit</members>
-        <members>CN_KPI_Init_Email_Noti</members>
-        <members>CN_KPI_Initialization_Completed</members>
-        <members>CN_KPI_Initialize</members>
-        <members>CN_KPI_Initialize_Alert</members>
-        <members>CN_KPI_Initialize_preAlert</members>
-        <members>CN_MTD_Visit</members>
-        <members>CN_MTD_Visit_Actural</members>
-        <members>CN_MTD_Visit_Rate</members>
-        <members>CN_Name</members>
-        <members>CN_New_Email_Setup</members>
-        <members>CN_No_Rejected_Pictures</members>
-        <members>CN_Not_Setup</members>
-        <members>CN_Out_Of_Plan</members>
-        <members>CN_POCE_Rate</members>
-        <members>CN_Remark</members>
-        <members>CN_Remark_Num</members>
-        <members>CN_Remark_Rate</members>
-        <members>CN_ReportXLSName_PicReject</members>
-        <members>CN_ReportXLSName_VisitDetail</members>
-        <members>CN_ReportXLSName_VisitSummary</members>
-        <members>CN_Report_Holiday_Remark</members>
-        <members>CN_Report_LeaveRemark</members>
-        <members>CN_Report_NLSelf_serve_KTV</members>
-        <members>CN_Report_RejectPicture_DownloadUrl</members>
-        <members>CN_Report_RejectPicture_NoRejPic</members>
-        <members>CN_SFDCPicRej_AuditDateTime</members>
-        <members>CN_SFDCPicRej_AuditResult</members>
-        <members>CN_SFDCPicRej_BDRCode</members>
-        <members>CN_SFDCPicRej_BDRName</members>
-        <members>CN_SFDCPicRej_City</members>
-        <members>CN_SFDCPicRej_PicDate</members>
-        <members>CN_SFDCPicRej_PicUrl</members>
-        <members>CN_SFDCPicRej_PocCode</members>
-        <members>CN_SFDCPicRej_PocName</members>
-        <members>CN_SFDCPicRej_Question</members>
-        <members>CN_SFDC_Support</members>
-        <members>CN_Select_Date</members>
-        <members>CN_Select_Date_Required</members>
-        <members>CN_Send_Email</members>
-        <members>CN_Start_DateTime</members>
-        <members>CN_Statistic_Calculate_Note</members>
-        <members>CN_Verification_date</members>
-        <members>CN_View_Report</members>
-        <members>CN_View_Setup</members>
-        <members>CN_VisitDetail_Header</members>
-        <members>CN_VisitDetail_Wccscode</members>
-        <members>CN_VisitSummary_Footer</members>
-        <members>CN_VisitSummary_Header</members>
-        <members>CN_Visit_Leave_Remark</members>
-        <members>CN_Visit_Leave_Remark_YN</members>
-        <members>CN_Visit_Rate_Visit_Summary</members>
-        <members>CN_Visit_Type</members>
-        <members>CN_WTD_Out_Of_Plan_Visit_Actural</members>
-        <members>CN_WTD_Plan_Visit</members>
-        <members>CN_WTD_Visit_Actural</members>
-        <members>CN_WTD_Visit_Num</members>
-        <members>CN_WTD_Visit_Rate</members>
-        <members>KPI_This_Month</members>
         <name>CustomLabel</name>
     </types>
     <types>
@@ -430,13 +313,6 @@
         <members>CN_Share_Task__c</members>
         <members>CN_User_POC_Relationship__c</members>
         <members>CN_User__c</members>
-        <members>CN_Holiday__c</members>
-        <members>CN_KPI_Dict__c</members>
-        <members>CN_KPI_Statistic__c</members>
-        <members>CN_Leave__c</members>
-        <members>CN_POCE_Suppression__c</members>
-        <members>CN_Report_Email_List__c</members>
-        <members>ONTAP__KPI__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -484,16 +360,6 @@
         <members>ONTAP__SurveyQuestionResponse__c-zh_CN</members>
         <members>ONTAP__Survey__c-en_US</members>
         <members>ONTAP__Survey__c-zh_CN</members>
-        <members>CN_Holiday__c-en_US</members>
-        <members>CN_Holiday__c-zh_CN</members>
-        <members>CN_KPI_Statistic__c-en_US</members>
-        <members>CN_KPI_Statistic__c-zh_CN</members>
-        <members>CN_Leave__c-en_US</members>
-        <members>CN_Leave__c-zh_CN</members>
-        <members>CN_POCE_Suppression__c-en_US</members>
-        <members>CN_POCE_Suppression__c-zh_CN</members>
-        <members>CN_Report_Email_List__c-en_US</members>
-        <members>CN_Report_Email_List__c-zh_CN</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
@@ -509,17 +375,10 @@
         <members>Product_Distribution_List</members>
         <members>User_Territory_Relationship</members>
         <members>Visit_Planner</members>
-        <members>CN_Holiday__c</members>
-        <members>CN_Leave__c</members>
-        <members>CN_Report_Email_List__c</members>
-        <members>CN_SalesKPI_Dashboard</members>
-        <members>CN_SendEmail</members>
         <name>CustomTab</name>
     </types>
     <types>
         <members>unfiled$public/CN_System_Error_Report</members>
-        <members>unfiled$public/CN_BDR_DailyReport_Text</members>
-        <members>unfiled$public/CN_SFDCPicture_Reject</members>
         <name>EmailTemplate</name>
     </types>
     <types>
@@ -551,11 +410,6 @@
         <members>CN_Share_Task__c-CN Share Task Layout</members>
         <members>CN_User_POC_Relationship__c-CN User POC Relationship Layout</members>
         <members>CN_User__c-CN User Layout</members>
-        <members>CN_Holiday__c-CN Holiday Layout</members>
-        <members>CN_KPI_Statistic__c-CN KPI Statistic Layout</members>
-        <members>CN_Leave__c-CN Leave Layout</members>
-        <members>CN_POCE_Suppression__c-CN POCE Suppression Layout</members>
-        <members>CN_Report_Email_List__c-CN Report Email List Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -578,7 +432,6 @@
         <members>SVG4EVERYBODY</members>
         <members>SVG4EVERYBODY_M</members>
         <members>VisitList</members>
-        <members>CN_ReportAutomation</members>
         <name>StaticResource</name>
     </types>
     <types>
